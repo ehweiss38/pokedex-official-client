@@ -1,0 +1,201 @@
+#logo {
+  height: 24vh;
+  margin-top: 4vh;
+  margin-left: -75vw;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#header #red-bar {
+  background-color: rgb(255, 0, 0);
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  height: 15vh;
+  width: 95vw;
+  outline-color: rgb(179, 161, 37);
+  outline-width: 4px;
+}
+#header #grey-bar {
+  background-color: rgb(59, 76, 202);
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  height: 9vh;
+  width: 90vw;
+}
+
+.panel {
+  margin-top: 7vw;
+  margin-left: 10px;
+  width: 25vw;
+  margin-bottom: 70px;
+  background-color: white;
+}
+.panel .panel-block {
+  height: 70vh input;
+  height-margin-top: 8px;
+}
+.panel .panel-block span {
+  margin-top: 0px;
+}
+.panel .panel-block a {
+  margin-bottom: 4px;
+}
+.panel #sort {
+  overflow-y: scroll;
+  height: 50vh;
+}
+
+#display {
+  font-family: "Chakra Petch", sans-serif;
+  margin-top: 7vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  position: relative;
+}
+#display article {
+  margin-top: 4vh;
+}
+#display article #infoCard #info {
+  max-height: 550px;
+  min-height: 550px;
+  max-width: 550px;
+  min-width: 550px;
+  margin-left: 0vw;
+  margin-right: 0vw;
+}
+#display article #infoCard #imageDisplay {
+  max-height: 400px;
+  min-height: 400px;
+  max-width: 400px !important;
+  min-width: 400px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+#display article #infoCard #imageDisplay .card {
+  position: relative;
+  height: 50%;
+}
+#display article #infoCard #imageDisplay .card .card-image {
+  height: 50%;
+  width: 50%;
+  position: absolute;
+}
+#display article #infoCard #imageDisplay .card img {
+  width: 200px;
+  height: 200px;
+  max-width: 200px;
+  max-height: 200px;
+}
+#display .tile.is-ancestor {
+  margin-left: 2vw;
+  width: 60vw;
+}
+#display #dexTabs {
+  margin-left: -0.05vw;
+  margin-right: 9vw;
+  margin-bottom: 0.05vw;
+}
+
+div .box {
+  z-index: 0;
+  background-color: hsl(0deg, 0%, 93%);
+}
+
+#formsTabs {
+  overflow-x: scroll;
+}
+
+.normal {
+  background-color: rgb(168, 167, 122);
+  outline-color: rgb(168, 167, 122);
+}
+
+.fire {
+  background-color: rgb(238, 129, 48);
+}
+
+.water {
+  background-color: rgb(99, 144, 240);
+}
+
+.electric {
+  background-color: rgb(247, 208, 44);
+}
+
+.grass {
+  background-color: rgb(122, 199, 76);
+}
+
+.ice {
+  background-color: rgb(150, 217, 214);
+}
+
+.fighting {
+  background-color: rgb(194, 46, 40);
+}
+
+.poison {
+  background-color: rgb(163, 62, 161);
+}
+
+.ground {
+  background-color: rgb(226, 191, 101);
+}
+
+.flying {
+  background-color: rgb(169, 143, 243);
+}
+
+.psychic {
+  background-color: rgb(249, 85, 135);
+}
+
+.bug {
+  background-color: rgb(166, 185, 26);
+}
+
+.rock {
+  background-color: rgb(182, 161, 54);
+}
+
+.ghost {
+  background-color: rgb(115, 87, 151);
+}
+
+.dragon {
+  background-color: rgb(111, 53, 252);
+}
+
+.dark {
+  background-color: rgb(112, 87, 70);
+}
+
+.steel {
+  background-color: rgb(183, 183, 206);
+}
+
+.fairy {
+  background-color: rgb(214, 133, 173);
+}
+
+.blue {
+  background-color: rgb(59, 76, 202);
+}
+
+.yellow {
+  background-color: rgb(255, 222, 0);
+}
+
+.red {
+  background-color: rgb(255, 0, 0);
+}/*# sourceMappingURL=style.css.map */
